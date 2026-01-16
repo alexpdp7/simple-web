@@ -18,5 +18,7 @@ sudo systemctl disable --now apache2
 ```
 
 ```
-curl http://localhost:8000/test
+curl http://localhost:8000/
+curl http://localhost:8000/foo
+curl http://localhost:8000/bar/baz
 ```
