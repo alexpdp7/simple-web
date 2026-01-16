@@ -18,7 +18,8 @@ sudo systemctl disable --now apache2
 ```
 
 ```
-curl http://localhost:8000/
+curl http://localhost:8000/ -H 'Accept: text/html'
+curl http://localhost:8000 -H 'Accept: text/gemini'
 curl http://localhost:8000/foo
 curl http://localhost:8000/bar/baz
 ```
